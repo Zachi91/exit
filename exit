@@ -1,0 +1,13 @@
+string userInput;
+string closeConsole = "exit";
+
+while (true)
+{
+    Console.WriteLine("Взлом компьютера начался, только не пишите - 'exit'...");
+    userInput = Console.ReadLine();
+if (userInput == closeConsole)
+    {
+        break;
+    }
+}
+Console.ReadKey();
